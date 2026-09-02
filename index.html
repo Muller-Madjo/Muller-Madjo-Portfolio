@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muller Madjo : Ingénieur Génie Logiciel & Couteau Suisse du Digital</title>
+<meta name="description" content="Portfolio de Madjo Yemeli Joël Muller développement web/mobile, design graphique, montage vidéo, community management. Bafoussam, Cameroun.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ BOUTON RETOUR EN HAUT ============ -->
+<button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#accueil" class="logo-mark" aria-label="Accueil">
+      <span class="logo-blade">M</span><span class="logo-blade">J</span><span class="logo-blade">M</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#accueil" class="nav-link active" data-section="accueil">Profil</a>
+      <a href="#competences" class="nav-link" data-section="competences">Compétences</a>
+      <a href="#projets" class="nav-link" data-section="projets">Projets</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      <span class="nav-indicator"></span>
+    </nav>
+
+    <div class="header-actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Basculer thème clair/sombre">
+        <svg class="icon-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.2M12 19.8V22M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2 12h2.2M19.8 12H22M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>
+        <svg class="icon-moon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ SECTION PROFIL / HERO ============ -->
+  <section id="accueil" class="section hero">
+    <div class="hero-bg-mark" aria-hidden="true">MM</div>
+    <div class="container hero-grid">
+
+      <div class="hero-text reveal">
+        <p class="eyebrow">Bafoussam, Cameroun  Couteau suisse du digital</p>
+        <h1 class="hero-title">
+          Madjo Yemeli<br>Joël <span class="text-accent">Muller</span>
+        </h1>
+        <p class="hero-role">Ingénieur de Travaux en Génie Logiciel</p>
+        <p class="hero-bio">
+          Passionné  du code, du design et de la technologie, Je conçois et développe des solutions numériques complètes, des applications web et mobile, l'identité visuelle des marques jusqu'au montage vidéo et à la gestion de communautés pour des entreprises et
+          entrepreneurs qui veulent une exécution soignée de la prise de contact jusqu'à la mise en ligne.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+
+        <!-- LAMES / PILIERS -->
+        <div class="blade-set" role="list">
+          <div class="blade" role="listitem" tabindex="0">
+            <div class="blade-tab">
+              <span class="blade-icon">⌘</span>
+              <span class="blade-label">Développement</span>
+            </div>
+            <div class="blade-fold">
+              <p>Web, mobile & desktop  React, Django, Laravel, Flutter, Spring Boot</p>
+            </div>
+          </div>
+          <div class="blade" role="listitem" tabindex="0">
+            <div class="blade-tab">
+              <span class="blade-icon">✦</span>
+              <span class="blade-label">Design graphique</span>
+            </div>
+            <div class="blade-fold">
+              <p>Identité visuelle, flyers, logos, dépliants, roll-up, affiche publicitaire (Photoshop, Illustrator)</p>
+            </div>
+          </div>
+          <div class="blade" role="listitem" tabindex="0">
+            <div class="blade-tab">
+              <span class="blade-icon">▶</span>
+              <span class="blade-label">Montage vidéo</span>
+            </div>
+            <div class="blade-fold">
+              <p>Montage video et motion design (DaVinci Resolve, CapCut, Premiere Pro)</p>
+            </div>
+          </div>
+          <div class="blade" role="listitem" tabindex="0">
+            <div class="blade-tab">
+              <span class="blade-icon">◎</span>
+              <span class="blade-label">Community management</span>
+            </div>
+            <div class="blade-fold">
+              <p>Contenus & animation de communautés sur les réseaux</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal" data-tilt>
+        <div class="photo-frame">
+          <img src="assets/img/profile.jpg" alt="Portrait de Madjo Yemeli Joël Muller">
+        </div>
+        <div class="photo-stamp">
+          <svg viewBox="0 0 100 100" width="86" height="86">
+            <path id="stampCircle" d="M50,10 a40,40 0 1,1 -0.1,0" fill="none"/>
+            <text font-family="IBM Plex Mono" font-size="8.2" letter-spacing="2" fill="currentColor">
+              <textPath href="#stampCircle" startOffset="0%">• DÉVELOPPEUR • DESIGNER • VIDÉASTE •</textPath>
+            </text>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ SECTION COMPÉTENCES ============ -->
+  <section id="competences" class="section competences-section">
+    <div class="container">
+      <p class="eyebrow reveal">Compétences</p>
+      <h2 class="section-title reveal">Je met ma polyvalence à votre service</h2>
+      <!-- <p class="section-lead reveal">
+        Chaque mission mobilise une combinaison différente de ces compétences  cliquez sur une catégorie pour la déplier.
+      </p> -->
+
+      <div class="skill-blades">
+
+        <div class="skill-blade reveal open" data-blade>
+          <button class="skill-blade-head">
+            <span class="skill-blade-num">01</span>
+            <span class="skill-blade-title">Développement</span>
+            <span class="skill-blade-chevron">＋</span>
+          </button>
+          <div class="skill-blade-body">
+            <div class="tag-cloud">
+              <span class="tag">Django / DRF</span>
+              <span class="tag">React JS</span>
+              <span class="tag">Laravel</span>
+              <span class="tag">Flutter</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">PostgreSQL / SQLite</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Microsoft Power Platform</span>
+              <span class="tag">Agents IA & automatisation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-blade reveal" data-blade>
+          <button class="skill-blade-head">
+            <span class="skill-blade-num">02</span>
+            <span class="skill-blade-title">Design graphique</span>
+            <span class="skill-blade-chevron">＋</span>
+          </button>
+          <div class="skill-blade-body">
+            <div class="tag-cloud">
+              <span class="tag">Identité visuelle des marques et entreprises</span>
+              <span class="tag">conception de Logos</span>
+              <span class="tag">Dépliants et Roll-up</span>
+              <span class="tag">Flyers & affiches</span>
+              <span class="tag">Bannières</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-blade reveal" data-blade>
+          <button class="skill-blade-head">
+            <span class="skill-blade-num">03</span>
+            <span class="skill-blade-title">Montage vidéo</span>
+            <span class="skill-blade-chevron">＋</span>
+          </button>
+          <div class="skill-blade-body">
+            <div class="tag-cloud">
+              <span class="tag">Création de contenus vidéo</span>
+              <span class="tag">Motion design</span>
+              <span class="tag">DaVinci Resolve</span>
+              <span class="tag">CapCut</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-blade reveal" data-blade>
+          <button class="skill-blade-head">
+            <span class="skill-blade-num">04</span>
+            <span class="skill-blade-title">Community management</span>
+            <span class="skill-blade-chevron">＋</span>
+          </button>
+          <div class="skill-blade-body">
+            <div class="tag-cloud">
+              <span class="tag">Facebook / Instagram</span>
+              <span class="tag">TikTok</span>
+              <span class="tag">WhatsApp Business</span>
+              <span class="tag">LinkedIn</span>
+              <span class="tag">Création de contenus</span>
+              <span class="tag">IA : Claude, Gemini, DeepSeek</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION PROJETS ============ -->
+  <section id="projets" class="section projets-section">
+    <div class="container">
+      <p class="eyebrow reveal">Réalisations</p>
+      <h2 class="section-title reveal">Projets</h2>
+      <p class="section-lead reveal">
+        Une sélection classée par discipline de toutes mes realisations et projets.
+      </p>
+
+      <div class="project-tabs reveal" role="tablist">
+        <button class="project-tab active" data-target="dev" role="tab" aria-selected="true">Conception d'application</button>
+        <button class="project-tab" data-target="design" role="tab" aria-selected="false">Conception graphique</button>
+        <button class="project-tab" data-target="video" role="tab" aria-selected="false">Montage vidéo</button>
+        <span class="project-tab-indicator"></span>
+      </div>
+
+      <!-- ---- SOUS-SECTION : DEVELOPPEMENT ---- -->
+      <div class="project-panel active" id="panel-dev" data-panel>
+        <div class="card-grid" data-card-grid>
+
+          <a href="https://camploy.onrender.com" class="project-card" data-index="0">
+            <div class="card-media"><span class="card-media-placeholder"><img src="./assets/img/camploy.png" alt=""></span></div>
+            <div class="card-body">
+              <span class="card-tag">Web · Django + HTML/CSS</span>
+              <h3 class="card-title">Camploy</h3>
+              <p class="card-desc">Plateforme de mise en relation emploi & formation pour le marché camerounais boostée grace à l'intelligence artificielle.</p>
+            </div>
+          </a>
+
+          <a href="ancbuildingafrica" class="project-card" data-index="1">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Django + PostgreSQL</span>
+              <h3 class="card-title">ANC Building Africa's</h3>
+              <p class="card-desc">Plateforme de vente de plans de maison et d'équipements de construction</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card" data-index="2">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Réseau · Infrastructure</span>
+              <h3 class="card-title">Réseau local sans fil d'entreprise</h3>
+              <p class="card-desc">Mise en place d'un réseau Wi-Fi connectant l'ensemble des postes de travail d'un bureau.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card is-hidden" data-index="3">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Desktop · Java / Visual Basic</span>
+              <h3 class="card-title">Gestion de bibliothèque & étudiants</h3>
+              <p class="card-desc">Applications CRUD développées pour la gestion des étudiants et d'une bibliothèque.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card is-hidden" data-index="4">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Web · HTML / CSS / PHP</span>
+              <h3 class="card-title">Site vitrine responsive</h3>
+              <p class="card-desc">Frontend responsive et backend PHP avec intégration de base de données SQL.</p>
+            </div>
+          </a>
+
+        </div>
+        <button class="btn-see-more" data-see-more>Voir plus <span class="chev">↓</span></button>
+      </div>
+
+      <!-- ---- SOUS-SECTION : DESIGN GRAPHIQUE ---- -->
+      <div class="project-panel" id="panel-design" data-panel>
+        <div class="card-grid" data-card-grid>
+
+          <a href="#" class="project-card" data-index="0">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Identité visuelle</span>
+              <h3 class="card-title">Bannière roll-up  Camploy</h3>
+              <p class="card-desc">Conception d'un roll-up pour la présentation de la plateforme Camploy.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card" data-index="1">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Flyers & affiches</span>
+              <h3 class="card-title">Supports de communication  NTEE Ltd</h3>
+              <p class="card-desc">Flyers, cartes de visite et bannières pour le Cabinet NTEE.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card" data-index="2">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Logo & identité</span>
+              <h3 class="card-title">Logo & dépliant  Engineering Concept Service</h3>
+              <p class="card-desc">Conception graphique complète (flyers, affiche, logo, dépliant) pour l'entreprise.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card is-hidden" data-index="3">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Édition</span>
+              <h3 class="card-title">Mise en page  Collection Digital Cameroun</h3>
+              <p class="card-desc">Infographies et mise en forme professionnelle pour une collection de livres.</p>
+            </div>
+          </a>
+
+        </div>
+        <button class="btn-see-more" data-see-more>Voir plus <span class="chev">↓</span></button>
+      </div>
+
+      <!-- ---- SOUS-SECTION : MONTAGE VIDEO ---- -->
+      <div class="project-panel" id="panel-video" data-panel>
+        <div class="card-grid" data-card-grid>
+
+          <a href="#" class="project-card" data-index="0">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Réseaux sociaux</span>
+              <h3 class="card-title">Capsules vidéo  réseaux sociaux</h3>
+              <p class="card-desc">Montage de contenus vidéo courts pour Facebook, TikTok et YouTube.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card" data-index="1">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Formation</span>
+              <h3 class="card-title">Vidéo pédagogique  formation IA</h3>
+              <p class="card-desc">Support vidéo réalisé pour une formation sur l'utilisation de l'intelligence artificielle.</p>
+            </div>
+          </a>
+
+          <a href="#" class="project-card is-hidden" data-index="2">
+            <div class="card-media"><span class="card-media-placeholder">Image du projet</span></div>
+            <div class="card-body">
+              <span class="card-tag">Entreprise</span>
+              <h3 class="card-title">Vidéo de présentation d'entreprise</h3>
+              <p class="card-desc">Montage et habillage pour une vidéo institutionnelle.</p>
+            </div>
+          </a>
+
+        </div>
+        <button class="btn-see-more" data-see-more>Voir plus <span class="chev">↓</span></button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SECTION CONTACT ============ -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 class="section-title">Discutons de votre projet</h2>
+        <p class="section-lead">
+          Disponible pour de nouvelles opportunités et collaborations, à Bafoussam comme à distance.
+        </p>
+      </div>
+
+      <div class="contact-list reveal">
+        <a href="tel:+237671730920" class="contact-row">
+          <span class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-label">Téléphone</span>
+            <span class="contact-value">+237 671 730 920</span>
+          </span>
+        </a>
+
+        <a href="mailto:mullerlimeye@gmail.com" class="contact-row">
+          <span class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">mullerlimeye@gmail.com</span>
+          </span>
+        </a>
+
+        <div class="contact-row contact-row-static">
+          <span class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-label">Localisation</span>
+            <span class="contact-value">Bafoussam, Cameroun</span>
+          </span>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+          <a href="#" class="social-link" aria-label="GitHub">gh</a>
+          <a href="https://wa.me/237671730920" class="social-link" aria-label="WhatsApp">wa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Madjo Yemeli Joël Muller</span>
+    <span>Conçu & développé à Bafoussam</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
